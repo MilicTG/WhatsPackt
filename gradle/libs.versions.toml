@@ -12,6 +12,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 kspVersion = "1.9.22-1.0.17"
 serialization = "1.7.1"
+navigation = "2.8.0-beta06"
 
 hiltVersion = "2.52"
 hilt-navigation-compose = "1.2.0"
@@ -35,11 +36,16 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 kotlin-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
 
+# Navigation
+androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+
 
 # Hilt
 hilt-android = { group = "com.google.dagger", name = "hilt-android" , version.ref = "hiltVersion"}
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler" , version.ref = "hiltVersion"}
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+
+
 
 
 [plugins]

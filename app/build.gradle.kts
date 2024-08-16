@@ -91,6 +91,9 @@ dependencies {
     implementation(project(":common:framework"))
     implementation(project(":common:data"))
 
+    // Navigation
+    implementation(libs.androidx.navigation)
+
     // HILT
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
